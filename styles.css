@@ -1,0 +1,100 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6eccde, #28245f);
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    max-width: 450px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 40px 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+.logo-container {
+    margin-bottom: 20px;
+}
+
+/* .logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: contain;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+} */
+/* styles.css */
+
+/* styles.css */
+.logo {
+    width: 120px; /* حجم أكبر قليلاً لإبراز الشعار */
+    height: auto; /* الحفاظ على نسبة العرض إلى الارتفاع */
+    object-fit: contain; /* ضمان عرض الشعار بشكل مثالي */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* إضافة ظل */
+    margin-bottom: 20px; /* مسافة بسيطة أسفل الشعار */
+    transition: transform 0.3s ease; /* تأثير عند التمرير */
+}
+
+.logo:hover {
+    transform: scale(1.05); /* تكبير بسيط عند التمرير */
+}
+
+
+.headline {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+.link i.fab.fa-whatsapp {
+    color: #ffffff; /* لون واتساب الأخضر */
+}
+
+
+.tagline {
+    font-size: 16px;
+    color: #ddd;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 12px 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+}
+
+.link:hover {
+    background: rgba(255, 255, 255, 0.4);
+    transform: scale(1.1);
+}
+
+.link i {
+    font-size: 20px;
+}
